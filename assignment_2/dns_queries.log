@@ -1,14 +1,9 @@
-[2025-09-09T05:07:43.060735Z] A lookup failed: The resolution lifetime expired after 5.011 seconds: Server Do53:192.168.12.202@53 answered The DNS operation timed out.; Server Do53:172.16.1.80@53 answered The DNS operation timed out.; Server Do53:172.16.1.82@53 answered The DNS operation timed out.
-[2025-09-09T05:07:48.118706Z] MX lookup failed: The resolution lifetime expired after 5.012 seconds: Server Do53:192.168.12.202@53 answered The DNS operation timed out.; Server Do53:172.16.1.80@53 answered The DNS operation timed out.; Server Do53:172.16.1.82@53 answered The DNS operation timed out.
-[2025-09-09T05:13:43.491893Z] A lookup failed: The resolution lifetime expired after 5.004 seconds: Server Do53:192.168.12.202@53 answered The DNS operation timed out.; Server Do53:172.16.1.80@53 answered The DNS operation timed out.; Server Do53:172.16.1.82@53 answered The DNS operation timed out.
-[2025-09-09T05:13:48.574282Z] MX lookup failed: The resolution lifetime expired after 5.014 seconds: Server Do53:192.168.12.202@53 answered The DNS operation timed out.; Server Do53:172.16.1.80@53 answered The DNS operation timed out.; Server Do53:172.16.1.82@53 answered The DNS operation timed out.
-[2025-09-09T05:13:53.656104Z] CNAME lookup failed: The resolution lifetime expired after 5.013 seconds: Server Do53:192.168.12.202@53 answered The DNS operation timed out.; Server Do53:172.16.1.80@53 answered The DNS operation timed out.; Server Do53:172.16.1.82@53 answered The DNS operation timed out.
-[2025-09-09T05:13:53.861840Z] A example.com -> 23.220.75.232
-[2025-09-09T05:20:15.269229Z] A lookup failed: The resolution lifetime expired after 5.001 seconds: Server Do53:192.168.12.202@53 answered The DNS operation timed out.; Server Do53:172.16.1.80@53 answered The DNS operation timed out.; Server Do53:172.16.1.82@53 answered The DNS operation timed out.
-[2025-09-09T05:20:20.273425Z] MX lookup failed: The resolution lifetime expired after 5.002 seconds: Server Do53:192.168.12.202@53 answered The DNS operation timed out.; Server Do53:172.16.1.80@53 answered The DNS operation timed out.; Server Do53:172.16.1.82@53 answered The DNS operation timed out.
-[2025-09-09T05:20:25.279866Z] CNAME lookup failed: The resolution lifetime expired after 5.004 seconds: Server Do53:192.168.12.202@53 answered The DNS operation timed out.; Server Do53:172.16.1.80@53 answered The DNS operation timed out.; Server Do53:172.16.1.82@53 answered The DNS operation timed out.
-[2025-09-09T05:20:25.405357Z] A instagram.com -> 163.70.146.174
-[2025-09-09T05:23:12.472406Z] A lookup failed: The resolution lifetime expired after 5.009 seconds: Server Do53:192.168.12.202@53 answered The DNS operation timed out.; Server Do53:172.16.1.80@53 answered The DNS operation timed out.; Server Do53:172.16.1.82@53 answered The DNS operation timed out.
-[2025-09-09T05:23:17.487575Z] MX lookup failed: The resolution lifetime expired after 5.013 seconds: Server Do53:192.168.12.202@53 answered The DNS operation timed out.; Server Do53:172.16.1.80@53 answered The DNS operation timed out.; Server Do53:172.16.1.82@53 answered The DNS operation timed out.
-[2025-09-09T05:23:22.501332Z] CNAME lookup failed: The resolution lifetime expired after 5.013 seconds: Server Do53:192.168.12.202@53 answered The DNS operation timed out.; Server Do53:172.16.1.80@53 answered The DNS operation timed out.; Server Do53:172.16.1.82@53 answered The DNS operation timed out.
 [2025-09-09T05:23:22.662064Z] A www.google.com -> 142.250.193.4
+[2025-09-09T09:47:13.558758Z] A www.google.com -> 216.239.38.120
+[2025-09-09T09:47:15.811776Z] MX lookup failed: The DNS response does not contain an answer to the question: www.google.com. IN MX
+[2025-09-09T09:47:17.896930Z] CNAME www.google.com -> forcesafesearch.google.com.
+[2025-09-09T09:47:28.991218Z] A www.google.com -> 216.239.38.120
+[2025-09-09T09:47:41.281650Z] A www.iitp.ac.in -> 172.16.1.251
+[2025-09-09T09:47:43.416250Z] MX lookup failed: The DNS response does not contain an answer to the question: www.iitp.ac.in. IN MX
+[2025-09-09T09:47:45.472182Z] CNAME www.iitp.ac.in -> morya.iitp.ac.in.
+[2025-09-09T09:47:56.550745Z] A www.iitp.ac.in -> 172.16.1.251
