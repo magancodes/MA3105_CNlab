@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CN Lab - HTTP Caching Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(120deg, #a8edea, #fed6e3);
+      color: #222;
+      text-align: center;
+      margin: 0;
+      padding: 50px;
+    }
+    h1 {
+      color: #333;
+    }
+    .datetime {
+      font-size: 1.5em;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    .note {
+      margin-top: 30px;
+      padding: 15px;
+      background: white;
+      border-radius: 8px;
+      display: inline-block;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to CN Lab Assignment 3</h1>
+  <p>Implementation of HTTP Caching with ETag & Last-Modified</p>
+
+  <div class="datetime" id="datetime">Loading date & time...</div>
+
+  <div class="note">
+    <p>This page is served with caching headers.</p>
+    <p>Check <b>ETag</b> and <b>Last-Modified</b> in response headers.</p>
+  </div>
+
+  <script>
+    function updateDateTime() {
+      const now = new Date();
+      document.getElementById("datetime").textContent =
+        now.toLocaleString();
+    }
+    updateDateTime();
+    setInterval(updateDateTime, 1000);
+  </script>
+</body>
+</html>
